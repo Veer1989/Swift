@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.Swift" parent="Base.Theme.Swift" />
+    <style name="splash_screen" parent="Theme.Design.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+
+    </style>
 </resources>

@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Swift</string>
+    <string name="shuffle_btn">Shuffle</string>
+    <string name="favourites_btn">Standouts</string>
+    <string name="playlist_btn">Playlist</string>
+    <string name="total_songs">JUKEBOX</string>
+    <string name="sound_nirvana">Sound Nirvana</string>
+    <string name="song_name">Song Name</string>
+    <string name="back_button">back</string>
+    <string name="fav_button">favourite</string>
+    <string name="start_music">00:00</string>
+    <string name="end_music">Loading..</string>
+    <string name="repeat_btn">REPEAT</string>
+    <string name="equaliser_btn">EQUALISER</string>
+    <string name="timer_btn">TIMER</string>
+    <string name="share_btn">SHARE</string>
+
+
 </resources>

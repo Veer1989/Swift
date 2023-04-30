@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlaylistActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/back_icon"
+            android:backgroundTint="@android:color/transparent"
+            app:tint="@color/white"
+            android:contentDescription="@string/back_button"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/playlist_btn"
+            android:text="@string/playlist_btn"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginRight="50dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/playlist_add_icon"
+        app:iconSize="35dp"
+        app:iconTint="#F82010"
+        app:backgroundTint="#910707"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeWidth="1dp"
+        app:strokeColor="#E32020"
+        android:backgroundTint="@android:color/transparent"
+        app:layout_constraintVertical_bias="0.9" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
